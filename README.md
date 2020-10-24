@@ -1,1 +1,4 @@
-# parcel-v2-repo
+## Run
+
+yarn install && yarn parcel watch packages/*
+

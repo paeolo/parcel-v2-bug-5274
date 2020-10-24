@@ -1,0 +1,25 @@
+{
+  "name": "@example/b",
+  "version": "1.0.0",
+  "source": "src/index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "targets": {
+    "main": {
+      "context": "node",
+      "engines": {
+        "node": ">=10.x"
+      },
+      "includeNodeModules": false
+    }
+  },
+  "engines": {
+    "node": "^10.16 || 12 || 14"
+  },
+  "author": "IBM Corp.",
+  "copyright.owner": "IBM Corp.",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}
