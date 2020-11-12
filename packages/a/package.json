@@ -1,23 +1,15 @@
 {
   "name": "@example/a",
   "version": "1.0.0",
-  "source": "src/index.ts",
   "main": "dist/index.js",
+  "source": "src/index.ts",
   "types": "dist/index.d.ts",
-  "targets": {
-    "main": {
-      "context": "node",
-      "engines": {"node": ">=10.x"},
-      "includeNodeModules":  false
-    }
-  },
   "engines": {
-    "node": "^10.16 || 12 || 14"
+    "node": ">= 14.0.0"
   },
-  "author": "IBM Corp.",
-  "copyright.owner": "IBM Corp.",
-  "license": "MIT",
-  "publishConfig": {
-    "access": "public"
-  }
+  "scripts": {
+    "watch": "parcel watch .",
+    "build": "parcel build ."
+  },
+  "license": "MIT"
 }
